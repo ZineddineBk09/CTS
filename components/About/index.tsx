@@ -182,9 +182,9 @@ const About = () => {
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_right aspect-[1.9] relative mx-auto hidden md:block md:w-[60%]"
+              className="animate_right relative mx-auto hidden aspect-[1.9] md:block md:w-[60%]"
             >
-                <Image
+              <Image
                 src="/images/features/Cyber Trust Systems.png"
                 alt="About"
                 className=""
